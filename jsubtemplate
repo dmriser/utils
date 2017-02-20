@@ -11,7 +11,7 @@ OTHER_FILES:
 COMMAND: ./bos2txt_v2 in.bos out.txt 
 
 OUTPUT_DATA: out.txt 
-OUTPUT_TEMPLATE: /volatile/clas/clas12/dmriser/analysis/e1f_analysis/fcup/*.fcup
+OUTPUT_TEMPLATE: /volatile/clas12/dmriser/analysis/e1f_analysis/fcup/*.fcup
 
 INPUT_DATA: in.bos
 

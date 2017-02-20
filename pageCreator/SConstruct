@@ -1,0 +1,11 @@
+import os, glob
+
+exeEnv = Environment(ENV = {'PATH':os.environ['PATH']}, h22libs=os.environ['h22libs'])
+exeEnv.ParseConfig("root-config --glibs --cflags")
+exeEnv.Append(CCFLAGS = ['-g'])
+
+sources = glob.glob('*.cc')
+
+for target in sources:
+    exeEnv.Program(target)
+

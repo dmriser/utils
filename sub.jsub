@@ -8,11 +8,11 @@ INPUT_DATA: input.bos
 
 OUTPUT_DATA: out.txt
 
-OUTPUT_TEMPLATE: /volatile/clas/clas12/dmriser/analysis/ef1_analysis/fcup_out/*.fcup
+OUTPUT_TEMPLATE: /volatile/clas12/dmriser/analysis/ef1_analysis/fcup_out/*.fcup
 
 OTHER_FILES:
-/u/home/dmriser/mydoc/ef1_analysis/bos2txt_v2
-/u/home/dmriser/mydoc/ef1_analysis/sub.run
+/u/home/dmriser/mydoc/analysis/utils/bos2txt_v2
+/u/home/dmriser/mydoc/analysis/utils/sub.run
 
 COMMAND: chmod a+x sub.run; ./sub.run
 

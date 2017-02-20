@@ -20,6 +20,7 @@ foreach file ($files)
     echo $file >> temp.$ijsub.jsub 
 	if ($ifile == $jsub_limit) then
 	    jsub temp.$ijsub.jsub
+	    echo temp.$ijsub.jsub
 	    @ ijsub++
 	    set ifile = 0
 	    cp jsubtemplate temp.$ijsub.jsub	    
@@ -29,4 +30,4 @@ end
 
 # send the last and clean
 jsub temp.$ijsub.jsub
-rm temp.*.jsub
+#rm temp.*.jsub

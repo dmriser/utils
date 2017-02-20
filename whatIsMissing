@@ -18,7 +18,7 @@ set allfiles = `ls /mss/clas/e1f/data/clas_0* | cut -d'/' -f6`
 # echo starting $#allfiles file comparisons 
 
 # load all files that we DO have from our system
-set myfiles  = `ls /volatile/clas/clas12/dmriser/analysis/e1f_analysis/fcup/clas_* | cut -d'/' -f9 | cut -d'.' -f1-2`
+set myfiles  = `ls /volatile/clas12/dmriser/analysis/e1f_analysis/fcup/clas_* | cut -d'/' -f9 | cut -d'.' -f1-2`
 
 # boolean variable that turns into 1 if we find a matching file in OUR directory
 set match = 0
